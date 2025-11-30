@@ -15,7 +15,7 @@ public final class HomePage extends BrowserUtility{
 	Logger logger = LoggerUtility.getLogger(this.getClass());
 
 	private static final By MY_ACCOUNT_LINK_LOCATOR = By.id("i7lqmw");
-	
+
 	public HomePage(Browser browserName, boolean isHeadless) {
 		super(browserName, isHeadless);
 		 goToWebsite(JSONUtility.readJSON(Env.QA).getUrl());   // reading data from the json

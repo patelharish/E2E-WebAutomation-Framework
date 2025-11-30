@@ -1,12 +1,10 @@
 package com.ui.listeners;
 
-import org.apache.xmlbeans.impl.xb.xsdschema.Wildcard.ProcessContents;
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 
 import com.constants.Env;
 import com.utility.JSONUtility;
-import com.utility.PropertiesUtil;
 
 public class MyRetryAnalyzer implements IRetryAnalyzer {
 	//private static final int MAX_NUMBER_OF_ATTEMPTS = Integer.parseInt(PropertiesUtil.readProperty(Env.QA, "MAX_NUMBER_OF_FLAKY_ATTEMPTS"));  // reading from the properties file

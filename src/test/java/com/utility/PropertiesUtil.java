@@ -11,7 +11,7 @@ import com.constants.Env;
 public class PropertiesUtil {
 
 	public static String readProperty(Env env, String propertyName) {
-		File propFile = new File(System.getProperty("user.dir") + "\\config\\QA.properties");
+		File propFile = new File(System.getProperty("user.dir") + "/config/QA.properties");
 		FileReader fileReader = null;
 		Properties props = new Properties();
 		try {
