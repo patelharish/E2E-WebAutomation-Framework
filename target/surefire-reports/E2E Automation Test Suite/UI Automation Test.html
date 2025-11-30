@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>UI Automation Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/2/3</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Nov 30 23:44:03 IST 2025</td>
+<td>Started on:</td><td>Mon Dec 01 00:02:54 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>19 seconds (19946 ms)</td>
+<tr><td>Total time:</td><td>8 seconds (8307 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -76,144 +76,10 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.ui.tests.LoginExcelTest.loginTest()'><b>loginTest</b><br>Test class: com.ui.tests.LoginExcelTest<br>Test method: Verifies with the valid user is able to login into the application<br>Parameters: User [emailAddress=mukeshkumar01.gh@gmail.com, password=Mukesh@321]</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;com.ui.pages.HomePage.goToLoginPage()&quot; because &quot;com.ui.tests.LoginExcelTest.homePage&quot; is null
-	at com.ui.tests.LoginExcelTest.loginTest(LoginExcelTest.java:26)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace170954200", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace170954200'><pre>java.lang.NullPointerException: Cannot invoke &quot;com.ui.pages.HomePage.goToLoginPage()&quot; because &quot;com.ui.tests.LoginExcelTest.homePage&quot; is null
-	at com.ui.tests.LoginExcelTest.loginTest(LoginExcelTest.java:26)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div></td>
-<td>0</td>
-<td>com.ui.tests.LoginExcelTest@19e7a160</td></tr>
-<tr>
-<td title='com.ui.tests.LoginExcelTest.loginTest()'><b>loginTest</b><br>Test class: com.ui.tests.LoginExcelTest<br>Test method: Verifies with the valid user is able to login into the application<br>Parameters: User [emailAddress=, password=]</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;com.ui.pages.HomePage.goToLoginPage()&quot; because &quot;com.ui.tests.LoginExcelTest.homePage&quot; is null
-	at com.ui.tests.LoginExcelTest.loginTest(LoginExcelTest.java:26)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1068798237", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1068798237'><pre>java.lang.NullPointerException: Cannot invoke &quot;com.ui.pages.HomePage.goToLoginPage()&quot; because &quot;com.ui.tests.LoginExcelTest.homePage&quot; is null
-	at com.ui.tests.LoginExcelTest.loginTest(LoginExcelTest.java:26)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div></td>
-<td>0</td>
-<td>com.ui.tests.LoginExcelTest@19e7a160</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.ui.tests.LoginExcelTest.loginTest()'><b>loginTest</b><br>Test class: com.ui.tests.LoginExcelTest<br>Test method: Verifies with the valid user is able to login into the application<br>Parameters: User [emailAddress=mukeshkumar01.gh@gmail.com, password=Mukesh@321]</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;com.ui.pages.HomePage.goToLoginPage()&quot; because &quot;com.ui.tests.LoginExcelTest.homePage&quot; is null
-	at com.ui.tests.LoginExcelTest.loginTest(LoginExcelTest.java:26)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace607037597", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace607037597'><pre>java.lang.NullPointerException: Cannot invoke &quot;com.ui.pages.HomePage.goToLoginPage()&quot; because &quot;com.ui.tests.LoginExcelTest.homePage&quot; is null
-	at com.ui.tests.LoginExcelTest.loginTest(LoginExcelTest.java:26)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div></td>
-<td>0</td>
-<td>com.ui.tests.LoginExcelTest@19e7a160</td></tr>
-<tr>
-<td title='com.ui.tests.LoginExcelTest.loginTest()'><b>loginTest</b><br>Test class: com.ui.tests.LoginExcelTest<br>Test method: Verifies with the valid user is able to login into the application<br>Parameters: User [emailAddress=mukeshkumar01.gh@gmail.com, password=Mukesh@321]</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;com.ui.pages.HomePage.goToLoginPage()&quot; because &quot;com.ui.tests.LoginExcelTest.homePage&quot; is null
-	at com.ui.tests.LoginExcelTest.loginTest(LoginExcelTest.java:26)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1308183756", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1308183756'><pre>java.lang.NullPointerException: Cannot invoke &quot;com.ui.pages.HomePage.goToLoginPage()&quot; because &quot;com.ui.tests.LoginExcelTest.homePage&quot; is null
-	at com.ui.tests.LoginExcelTest.loginTest(LoginExcelTest.java:26)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div></td>
-<td>0</td>
-<td>com.ui.tests.LoginExcelTest@19e7a160</td></tr>
-<tr>
-<td title='com.ui.tests.LoginExcelTest.loginTest()'><b>loginTest</b><br>Test class: com.ui.tests.LoginExcelTest<br>Test method: Verifies with the valid user is able to login into the application<br>Parameters: User [emailAddress=mukeshkumar01.gh@gmail.com, password=Mukesh@321]</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;com.ui.pages.HomePage.goToLoginPage()&quot; because &quot;com.ui.tests.LoginExcelTest.homePage&quot; is null
-	at com.ui.tests.LoginExcelTest.loginTest(LoginExcelTest.java:26)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1857397168", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1857397168'><pre>java.lang.NullPointerException: Cannot invoke &quot;com.ui.pages.HomePage.goToLoginPage()&quot; because &quot;com.ui.tests.LoginExcelTest.homePage&quot; is null
-	at com.ui.tests.LoginExcelTest.loginTest(LoginExcelTest.java:26)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div></td>
-<td>0</td>
-<td>com.ui.tests.LoginExcelTest@19e7a160</td></tr>
+<td title='com.ui.tests.LoginCSVTest.loginTest()'><b>loginTest</b><br>Test class: com.ui.tests.LoginCSVTest<br>Test method: Verifies with the valid user is able to login into the application<br>Parameters: User [emailAddress=mukeshkumar01.gh@gmail.com, password=11111111]</td>
+<td></td>
+<td>4</td>
+<td>com.ui.tests.LoginCSVTest@19e7a160</td></tr>
 </table><p>
 </body>
 </html>

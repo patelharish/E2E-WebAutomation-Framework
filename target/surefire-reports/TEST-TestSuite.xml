@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="20.838" tests="5" errors="0" skipped="3" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="9.173" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="isHeadless" value="true"/>
     <property name="java.specification.version" value="21"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\patel\AppData\Local\Temp\surefire4003919457286281237\surefirebooter-20251130234402247_3.jar C:\Users\patel\AppData\Local\Temp\surefire4003919457286281237 2025-11-30T23-44-02_129-jvmRun1 surefire-20251130234402247_1tmp surefire_0-20251130234402247_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\patel\AppData\Local\Temp\surefire11555777443244584588\surefirebooter-20251201000253506_3.jar C:\Users\patel\AppData\Local\Temp\surefire11555777443244584588 2025-12-01T00-02-53_417-jvmRun1 surefire-20251201000253506_1tmp surefire_0-20251201000253506_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\patel\eclipse-workspace\E2E_WebAutomation_Framework\target\test-classes;C:\Users\patel\eclipse-workspace\E2E_WebAutomation_Framework\target\classes;C:\Users\patel\.m2\repository\org\seleniumhq\selenium\selenium-java\4.33.0\selenium-java-4.33.0.jar;C:\Users\patel\.m2\repository\org\seleniumhq\selenium\selenium-api\4.33.0\selenium-api-4.33.0.jar;C:\Users\patel\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\patel\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.33.0\selenium-chrome-driver-4.33.0.jar;C:\Users\patel\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\patel\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.33.0\selenium-chromium-driver-4.33.0.jar;C:\Users\patel\.m2\repository\org\seleniumhq\selenium\selenium-json\4.33.0\selenium-json-4.33.0.jar;C:\Users\patel\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.33.0\selenium-manager-4.33.0.jar;C:\Users\patel\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v135\4.33.0\selenium-devtools-v135-4.33.0.jar;C:\Users\patel\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.33.0\selenium-devtools-v136-4.33.0.jar;C:\Users\patel\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.33.0\selenium-devtools-v137-4.33.0.jar;C:\Users\patel\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.33.0\selenium-edge-driver-4.33.0.jar;C:\Users\patel\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.33.0\selenium-firefox-driver-4.33.0.jar;C:\Users\patel\.m2\repository\org\seleniumhq\selenium\selenium-http\4.33.0\selenium-http-4.33.0.jar;C:\Users\patel\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.33.0\selenium-ie-driver-4.33.0.jar;C:\Users\patel\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.33.0\selenium-remote-driver-4.33.0.jar;C:\Users\patel\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\patel\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\patel\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\patel\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\patel\.m2\repository\io\opentelemetry\opentelemetry-api\1.50.0\opentelemetry-api-1.50.0.jar;C:\Users\patel\.m2\repository\io\opentelemetry\opentelemetry-context\1.50.0\opentelemetry-context-1.50.0.jar;C:\Users\patel\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.50.0\opentelemetry-exporter-logging-1.50.0.jar;C:\Users\patel\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.50.0\opentelemetry-sdk-common-1.50.0.jar;C:\Users\patel\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.50.0\opentelemetry-sdk-extension-autoconfigure-spi-1.50.0.jar;C:\Users\patel\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.50.0\opentelemetry-sdk-extension-autoconfigure-1.50.0.jar;C:\Users\patel\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.50.0\opentelemetry-sdk-trace-1.50.0.jar;C:\Users\patel\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.50.0\opentelemetry-sdk-1.50.0.jar;C:\Users\patel\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.50.0\opentelemetry-sdk-metrics-1.50.0.jar;C:\Users\patel\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.50.0\opentelemetry-sdk-logs-1.50.0.jar;C:\Users\patel\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\patel\.m2\repository\org\seleniumhq\selenium\selenium-os\4.33.0\selenium-os-4.33.0.jar;C:\Users\patel\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\patel\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.33.0\selenium-safari-driver-4.33.0.jar;C:\Users\patel\.m2\repository\org\seleniumhq\selenium\selenium-support\4.33.0\selenium-support-4.33.0.jar;C:\Users\patel\.m2\repository\org\testng\testng\7.7.0\testng-7.7.0.jar;C:\Users\patel\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\patel\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\patel\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\patel\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\patel\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\patel\.m2\repository\com\opencsv\opencsv\5.9\opencsv-5.9.jar;C:\Users\patel\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\patel\.m2\repository\org\apache\commons\commons-text\1.11.0\commons-text-1.11.0.jar;C:\Users\patel\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\patel\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\patel\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\patel\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\patel\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\patel\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\patel\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\patel\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\patel\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\patel\.m2\repository\org\apache\poi\poi-ooxml\5.4.1\poi-ooxml-5.4.1.jar;C:\Users\patel\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.1\poi-ooxml-lite-5.4.1.jar;C:\Users\patel\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\patel\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\patel\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\patel\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.2\log4j-core-2.25.2.jar;C:\Users\patel\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.2\log4j-api-2.25.2.jar;C:\Users\patel\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\patel\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\patel\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\patel\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\patel\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="isLambdaTest" value="false"/>
-    <property name="surefire.real.class.path" value="C:\Users\patel\AppData\Local\Temp\surefire4003919457286281237\surefirebooter-20251130234402247_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\patel\AppData\Local\Temp\surefire11555777443244584588\surefirebooter-20251201000253506_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
@@ -61,123 +61,30 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="loginTest[User [emailAddress=mukeshkumar01.gh@gmail.com, password=Mukesh@321]](1)" classname="com.ui.tests.LoginExcelTest" time="0.0">
-    <skipped message="Cannot invoke &quot;com.ui.pages.HomePage.goToLoginPage()&quot; because &quot;com.ui.tests.LoginExcelTest.homePage&quot; is null"/>
-    <system-out><![CDATA[2025-11-18 23:44:03 [main] INFO com.ui.listeners.TestListener::onStart::59 Test Suite Started 
-2025-11-91 23:44:03 [TestNG-test=UI Automation Test-1] INFO com.ui.tests.LoginExcelTest::setUp::34 Load theb Homepage of the website 
-2025-11-92 23:44:03 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::<init>::69 Launching Browser for CHROME 
-2025-11-05 23:44:05 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::goToWebsite::109 Visiting the website https://www.parempire.com/ 
-2025-11-15 23:44:05 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::27 loginTest 
-2025-11-15 23:44:05 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::28 Verifies with the valid user is able to login into the application 
-2025-11-15 23:44:05 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::29 [e2e, sanity] 
+  <testcase name="loginTest[User [emailAddress=mukeshkumar01.gh@gmail.com, password=11111111]](1)" classname="com.ui.tests.LoginCSVTest" time="4.045">
+    <system-out><![CDATA[2025-12-37 00:02:54 [main] INFO com.ui.listeners.TestListener::onStart::59 Test Suite Started 
+2025-12-57 00:02:54 [TestNG-test=UI Automation Test-1] INFO com.ui.tests.LoginCSVTest::setUp::34 Load theb Homepage of the website 
+2025-12-59 00:02:54 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::<init>::69 Launching Browser for CHROME 
+2025-12-47 00:02:56 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::goToWebsite::109 Visiting the website https://www.parempire.com/ 
+2025-12-48 00:02:58 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::27 loginTest 
+2025-12-48 00:02:58 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::28 Verifies with the valid user is able to login into the application 
+2025-12-48 00:02:58 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::29 [e2e, sanity] 
+2025-12-48 00:02:58 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::goToLoginPage::31 Trying to perform click to go to Sign in Page 
+2025-12-48 00:02:58 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::clickOn::119 Finding Element with the locatorBy.id: i7lqmw 
+2025-12-50 00:02:58 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::clickOn::121 Element Found and now Performing Click 
+2025-12-34 00:03:02 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::126 Finding Element with the locatorBy.id: user_email 
+2025-12-35 00:03:02 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::128 Element Found and now enter textmukeshkumar01.gh@gmail.com 
+2025-12-43 00:03:02 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::126 Finding Element with the locatorBy.id: user_password 
+2025-12-44 00:03:02 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::128 Element Found and now enter text11111111 
+2025-12-47 00:03:02 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::119 Finding Element with the locatorBy.xpath: (//button[normalize-space()='Login'])[1] 
+2025-12-48 00:03:02 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::121 Element Found and now Performing Click 
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Nov 30, 2025 11:44:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Dec 01, 2025 12:02:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 142
-Nov 30, 2025 11:44:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-WARNING: Unable to find version of CDP to use for 142.0.7444.176. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.33.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="loginTest[User [emailAddress=mukeshkumar01.gh@gmail.com, password=Mukesh@321]](2)" classname="com.ui.tests.LoginExcelTest" time="0.0">
-    <skipped message="Cannot invoke &quot;com.ui.pages.HomePage.goToLoginPage()&quot; because &quot;com.ui.tests.LoginExcelTest.homePage&quot; is null"/>
-    <system-out><![CDATA[2025-11-17 23:44:05 [TestNG-test=UI Automation Test-1] WARN com.ui.listeners.TestListener::onTestSkipped::54 loginTest SKIPPED 
-2025-11-29 23:44:05 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::quit::156 Browser session quit successfully. 
-2025-11-33 23:44:05 [TestNG-test=UI Automation Test-1] INFO com.ui.tests.LoginExcelTest::setUp::34 Load theb Homepage of the website 
-2025-11-33 23:44:05 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::<init>::69 Launching Browser for CHROME 
-2025-11-10 23:44:06 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::goToWebsite::109 Visiting the website https://www.parempire.com/ 
-2025-11-40 23:44:08 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::27 loginTest 
-2025-11-40 23:44:08 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::28 Verifies with the valid user is able to login into the application 
-2025-11-40 23:44:08 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::29 [e2e, sanity] 
-]]></system-out>
-    <system-err><![CDATA[Nov 30, 2025 11:44:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 142
-Nov 30, 2025 11:44:06 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-WARNING: Unable to find version of CDP to use for 142.0.7444.176. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.33.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="loginTest[User [emailAddress=mukeshkumar01.gh@gmail.com, password=Mukesh@321]](3)" classname="com.ui.tests.LoginExcelTest" time="0.0">
-    <skipped message="Cannot invoke &quot;com.ui.pages.HomePage.goToLoginPage()&quot; because &quot;com.ui.tests.LoginExcelTest.homePage&quot; is null"/>
-    <system-out><![CDATA[2025-11-40 23:44:08 [TestNG-test=UI Automation Test-1] WARN com.ui.listeners.TestListener::onTestSkipped::54 loginTest SKIPPED 
-2025-11-54 23:44:08 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::quit::156 Browser session quit successfully. 
-2025-11-57 23:44:08 [TestNG-test=UI Automation Test-1] INFO com.ui.tests.LoginExcelTest::setUp::34 Load theb Homepage of the website 
-2025-11-57 23:44:08 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::<init>::69 Launching Browser for CHROME 
-2025-11-35 23:44:09 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::goToWebsite::109 Visiting the website https://www.parempire.com/ 
-2025-11-68 23:44:11 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::27 loginTest 
-2025-11-68 23:44:11 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::28 Verifies with the valid user is able to login into the application 
-2025-11-68 23:44:11 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::29 [e2e, sanity] 
-]]></system-out>
-    <system-err><![CDATA[Nov 30, 2025 11:44:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 142
-Nov 30, 2025 11:44:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-WARNING: Unable to find version of CDP to use for 142.0.7444.176. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.33.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="loginTest[User [emailAddress=mukeshkumar01.gh@gmail.com, password=Mukesh@321]](4)" classname="com.ui.tests.LoginExcelTest" time="0.0">
-    <failure message="Cannot invoke &quot;com.ui.pages.HomePage.goToLoginPage()&quot; because &quot;com.ui.tests.LoginExcelTest.homePage&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "com.ui.pages.HomePage.goToLoginPage()" because "com.ui.tests.LoginExcelTest.homePage" is null
-	at com.ui.tests.LoginExcelTest.loginTest(LoginExcelTest.java:26)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-]]></failure>
-    <system-out><![CDATA[2025-11-68 23:44:11 [TestNG-test=UI Automation Test-1] WARN com.ui.listeners.TestListener::onTestSkipped::54 loginTest SKIPPED 
-2025-11-81 23:44:11 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::quit::156 Browser session quit successfully. 
-2025-11-84 23:44:11 [TestNG-test=UI Automation Test-1] INFO com.ui.tests.LoginExcelTest::setUp::34 Load theb Homepage of the website 
-2025-11-84 23:44:11 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::<init>::69 Launching Browser for CHROME 
-2025-11-57 23:44:12 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::goToWebsite::109 Visiting the website https://www.parempire.com/ 
-2025-11-68 23:44:12 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::27 loginTest 
-2025-11-68 23:44:12 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::28 Verifies with the valid user is able to login into the application 
-2025-11-68 23:44:12 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::29 [e2e, sanity] 
-]]></system-out>
-    <system-err><![CDATA[Nov 30, 2025 11:44:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 142
-Nov 30, 2025 11:44:12 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-WARNING: Unable to find version of CDP to use for 142.0.7444.176. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.33.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="loginTest[User [emailAddress=, password=]](5)" classname="com.ui.tests.LoginExcelTest" time="0.0">
-    <failure message="Cannot invoke &quot;com.ui.pages.HomePage.goToLoginPage()&quot; because &quot;com.ui.tests.LoginExcelTest.homePage&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "com.ui.pages.HomePage.goToLoginPage()" because "com.ui.tests.LoginExcelTest.homePage" is null
-	at com.ui.tests.LoginExcelTest.loginTest(LoginExcelTest.java:26)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-]]></failure>
-    <system-out><![CDATA[2025-11-69 23:44:12 [TestNG-test=UI Automation Test-1] ERROR com.ui.listeners.TestListener::onTestFailure::39 loginTest FAILED 
-2025-11-69 23:44:12 [TestNG-test=UI Automation Test-1] ERROR com.ui.listeners.TestListener::onTestFailure::40 Cannot invoke "com.ui.pages.HomePage.goToLoginPage()" because "com.ui.tests.LoginExcelTest.homePage" is null 
-2025-11-69 23:44:12 [TestNG-test=UI Automation Test-1] ERROR com.ui.listeners.TestListener::onTestFailure::47 Capturing Screenshot for the failed tests 
-2025-11-32 23:44:19 [TestNG-test=UI Automation Test-1] ERROR com.ui.listeners.TestListener::onTestFailure::49 Attaching to the screenshot to html file 
-2025-11-43 23:44:19 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::quit::156 Browser session quit successfully. 
-2025-11-43 23:44:19 [TestNG-test=UI Automation Test-1] INFO com.ui.tests.LoginExcelTest::setUp::34 Load theb Homepage of the website 
-2025-11-43 23:44:19 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::<init>::69 Launching Browser for CHROME 
-2025-11-23 23:44:20 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::goToWebsite::109 Visiting the website https://www.parempire.com/ 
-2025-11-77 23:44:22 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::27 loginTest 
-2025-11-77 23:44:22 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::28 Verifies with the valid user is able to login into the application 
-2025-11-77 23:44:22 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::29 [e2e, sanity] 
-]]></system-out>
-    <system-err><![CDATA[Nov 30, 2025 11:44:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 142
-Nov 30, 2025 11:44:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Dec 01, 2025 12:02:56 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 142.0.7444.176. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.33.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
