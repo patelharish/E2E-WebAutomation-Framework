@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="E2E Automation Test Suite" parallel="methods" thread-count="8" >
+  <test name="UI Automation Test">
+	  <parameter name="browser" value="${browser}"/>   <!-- these values are coming from pom.xml-->
+	  <parameter name="isLambdaTest" value="${isLambdaTest}"/> <!-- these values are coming from pom.xml-->
+	  <parameter name="isHeadless" value="${isHeadless}"/>  <!-- these values are coming from pom.xml-->
+    <classes>
+      <class name="com.ui.tests.LoginCSVTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

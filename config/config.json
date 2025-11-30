@@ -1,0 +1,16 @@
+{
+  "environments": {
+    "DEV": {
+      "url": "https://www.parempire.com/",
+      "MAX_NUMBER_OF_FLAKY_ATTEMPTS": 3
+    },
+    "QA": {
+      "url": "https://www.parempire.com/",
+      "MAX_NUMBER_OF_FLAKY_ATTEMPTS": 3
+    },
+    "UAT": {
+      "url": "https://www.parempire.com/",
+      "MAX_NUMBER_OF_FLAKY_ATTEMPTS": 3
+    }
+  }
+}
