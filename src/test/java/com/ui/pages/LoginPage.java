@@ -8,7 +8,7 @@ import com.utility.BrowserUtility;
 public final class LoginPage extends BrowserUtility {	
 	
 	private static final By EMAIL_INPUT_LOCATOR = By.id("user_email");
-	private static final By PASSWORD_INPUT_LOCATOR = By.id("user_password");
+	private static final By PASSWORD_INPUT_LOCATOR = By.id("user_passwordh");
 	private static final By SUBMIT_BUTTON_LOCATOR = By.xpath("(//button[normalize-space()='Login'])[1]");
 	
 	public LoginPage(WebDriver driver) {
