@@ -62,13 +62,13 @@ jobs:
       run: |
          mkdir -p public/extent-reports
          cp -R extentReport.html public/extent-reports/
-         cp -R screenshots/ public/extent-reports/scree
+         cp -R screenshots/ public/extent-reports/screenshots
          ls -l
          
     - name: Deploy 🚀
       if: always()
       uses: JamesIves/github-pages-deploy-action@v4
       with:
-        folder: public/extent-reports/
-        token: ${{ secrets.ACCESS_KEY }}
-         clean: true
+       folder: public/extent-reports/
+       token: ${{ secrets.ACCESS_KEY }}
+       clean: true
