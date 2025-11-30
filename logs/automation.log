@@ -1,7 +1,19 @@
-2025-11-37 21:18:18 [main] INFO com.ui.listeners.TestListener Test Suite Started 
-2025-11-54 21:18:18 [TestNG-test=UI Automation Test-1] INFO com.ui.tests.LoginCSVTest Load theb Homepage of the website 
-2025-11-54 21:18:18 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener loginTest 
-2025-11-54 21:18:18 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener Verifies with the valid user is able to login into the application 
-2025-11-54 21:18:18 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener [e2e, sanity] 
-2025-11-55 21:18:18 [TestNG-test=UI Automation Test-1] WARN com.ui.listeners.TestListener loginTest SKIPPED 
-2025-11-57 21:18:18 [main] INFO com.ui.listeners.TestListener Test Suite Completed 
+2025-11-68 23:01:35 [main] INFO com.ui.listeners.TestListener Test Suite Started 
+2025-11-87 23:01:35 [TestNG-test=UI Automation Test-1] INFO com.ui.tests.LoginCSVTest Load theb Homepage of the website 
+2025-11-87 23:01:35 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage Launching Browser for CHROME 
+2025-11-10 23:01:37 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage Visiting the website https://www.parempire.com/ 
+2025-11-46 23:01:37 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener loginTest 
+2025-11-46 23:01:37 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener Verifies with the valid user is able to login into the application 
+2025-11-46 23:01:37 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2025-11-47 23:01:37 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage Trying to perform click to go to Sign in Page 
+2025-11-47 23:01:37 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage Finding Element with the locatorBy.id: i7lqmw 
+2025-11-00 23:01:40 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage Element Found and now Performing Click 
+2025-11-89 23:01:43 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage Finding Element with the locatorBy.id: user_email 
+2025-11-91 23:01:43 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage Element Found and now enter textmukeshkumar01.gh@gmail.com 
+2025-11-04 23:01:44 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage Finding Element with the locatorBy.id: user_password 
+2025-11-06 23:01:44 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage Element Found and now enter text11111111 
+2025-11-11 23:01:44 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage Finding Element with the locatorBy.xpath: (//button[normalize-space()='Login'])[1] 
+2025-11-13 23:01:44 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage Element Found and now Performing Click 
+2025-11-20 23:01:44 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener loginTest PASSED 
+2025-11-37 23:01:44 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage Browser session quit successfully. 
+2025-11-38 23:01:44 [main] INFO com.ui.listeners.TestListener Test Suite Completed 
