@@ -6,7 +6,7 @@
 	  <parameter name="isLambdaTest" value="${isLambdaTest}"/> <!-- these values are coming from pom.xml-->
 	  <parameter name="isHeadless" value="${isHeadless}"/>  <!-- these values are coming from pom.xml-->
     <classes>
-      <class name="com.ui.tests.LoginCSVTest"/>
+      <class name="com.ui.tests.LoginExcelTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

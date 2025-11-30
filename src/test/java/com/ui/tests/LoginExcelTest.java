@@ -1,10 +1,12 @@
 package com.ui.tests;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.ui.pages.HomePage;
 import com.ui.pojo.User;
 
+@Listeners(com.ui.listeners.TestListener.class)
 public class LoginExcelTest extends TestBase{
 	static HomePage homePage;
 	

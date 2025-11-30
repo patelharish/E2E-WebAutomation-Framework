@@ -1,19 +1,48 @@
-2025-11-61 23:21:44 [main] INFO com.ui.listeners.TestListener Test Suite Started 
-2025-11-80 23:21:44 [TestNG-test=UI Automation Test-1] INFO com.ui.tests.LoginCSVTest Load theb Homepage of the website 
-2025-11-80 23:21:44 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage Launching Browser for CHROME 
-2025-11-05 23:21:46 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage Visiting the website https://www.parempire.com/ 
-2025-11-63 23:21:49 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener loginTest 
-2025-11-63 23:21:49 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener Verifies with the valid user is able to login into the application 
-2025-11-63 23:21:49 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener [e2e, sanity] 
-2025-11-64 23:21:49 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage Trying to perform click to go to Sign in Page 
-2025-11-64 23:21:49 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage Finding Element with the locatorBy.id: i7lqmw 
-2025-11-70 23:21:49 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage Element Found and now Performing Click 
-2025-11-84 23:21:53 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage Finding Element with the locatorBy.id: user_email 
-2025-11-86 23:21:53 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage Element Found and now enter textmukeshkumar01.gh@gmail.com 
-2025-11-95 23:21:53 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage Finding Element with the locatorBy.id: user_password 
-2025-11-96 23:21:53 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage Element Found and now enter text11111111 
-2025-11-01 23:21:54 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage Finding Element with the locatorBy.xpath: (//button[normalize-space()='Login'])[1] 
-2025-11-02 23:21:54 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage Element Found and now Performing Click 
-2025-11-08 23:21:54 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener loginTest PASSED 
-2025-11-21 23:21:54 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage Browser session quit successfully. 
-2025-11-23 23:21:54 [main] INFO com.ui.listeners.TestListener Test Suite Completed 
+2025-11-18 23:44:03 [main] INFO com.ui.listeners.TestListener Test Suite Started 
+2025-11-91 23:44:03 [TestNG-test=UI Automation Test-1] INFO com.ui.tests.LoginExcelTest Load theb Homepage of the website 
+2025-11-92 23:44:03 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage Launching Browser for CHROME 
+2025-11-05 23:44:05 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage Visiting the website https://www.parempire.com/ 
+2025-11-15 23:44:05 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener loginTest 
+2025-11-15 23:44:05 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener Verifies with the valid user is able to login into the application 
+2025-11-15 23:44:05 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2025-11-17 23:44:05 [TestNG-test=UI Automation Test-1] WARN com.ui.listeners.TestListener loginTest SKIPPED 
+2025-11-29 23:44:05 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage Browser session quit successfully. 
+2025-11-33 23:44:05 [TestNG-test=UI Automation Test-1] INFO com.ui.tests.LoginExcelTest Load theb Homepage of the website 
+2025-11-33 23:44:05 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage Launching Browser for CHROME 
+2025-11-10 23:44:06 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage Visiting the website https://www.parempire.com/ 
+2025-11-40 23:44:08 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener loginTest 
+2025-11-40 23:44:08 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener Verifies with the valid user is able to login into the application 
+2025-11-40 23:44:08 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2025-11-40 23:44:08 [TestNG-test=UI Automation Test-1] WARN com.ui.listeners.TestListener loginTest SKIPPED 
+2025-11-54 23:44:08 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage Browser session quit successfully. 
+2025-11-57 23:44:08 [TestNG-test=UI Automation Test-1] INFO com.ui.tests.LoginExcelTest Load theb Homepage of the website 
+2025-11-57 23:44:08 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage Launching Browser for CHROME 
+2025-11-35 23:44:09 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage Visiting the website https://www.parempire.com/ 
+2025-11-68 23:44:11 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener loginTest 
+2025-11-68 23:44:11 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener Verifies with the valid user is able to login into the application 
+2025-11-68 23:44:11 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2025-11-68 23:44:11 [TestNG-test=UI Automation Test-1] WARN com.ui.listeners.TestListener loginTest SKIPPED 
+2025-11-81 23:44:11 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage Browser session quit successfully. 
+2025-11-84 23:44:11 [TestNG-test=UI Automation Test-1] INFO com.ui.tests.LoginExcelTest Load theb Homepage of the website 
+2025-11-84 23:44:11 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage Launching Browser for CHROME 
+2025-11-57 23:44:12 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage Visiting the website https://www.parempire.com/ 
+2025-11-68 23:44:12 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener loginTest 
+2025-11-68 23:44:12 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener Verifies with the valid user is able to login into the application 
+2025-11-68 23:44:12 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2025-11-69 23:44:12 [TestNG-test=UI Automation Test-1] ERROR com.ui.listeners.TestListener loginTest FAILED 
+2025-11-69 23:44:12 [TestNG-test=UI Automation Test-1] ERROR com.ui.listeners.TestListener Cannot invoke "com.ui.pages.HomePage.goToLoginPage()" because "com.ui.tests.LoginExcelTest.homePage" is null 
+2025-11-69 23:44:12 [TestNG-test=UI Automation Test-1] ERROR com.ui.listeners.TestListener Capturing Screenshot for the failed tests 
+2025-11-32 23:44:19 [TestNG-test=UI Automation Test-1] ERROR com.ui.listeners.TestListener Attaching to the screenshot to html file 
+2025-11-43 23:44:19 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage Browser session quit successfully. 
+2025-11-43 23:44:19 [TestNG-test=UI Automation Test-1] INFO com.ui.tests.LoginExcelTest Load theb Homepage of the website 
+2025-11-43 23:44:19 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage Launching Browser for CHROME 
+2025-11-23 23:44:20 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage Visiting the website https://www.parempire.com/ 
+2025-11-77 23:44:22 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener loginTest 
+2025-11-77 23:44:22 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener Verifies with the valid user is able to login into the application 
+2025-11-77 23:44:22 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2025-11-77 23:44:22 [TestNG-test=UI Automation Test-1] ERROR com.ui.listeners.TestListener loginTest FAILED 
+2025-11-77 23:44:22 [TestNG-test=UI Automation Test-1] ERROR com.ui.listeners.TestListener Cannot invoke "com.ui.pages.HomePage.goToLoginPage()" because "com.ui.tests.LoginExcelTest.homePage" is null 
+2025-11-77 23:44:22 [TestNG-test=UI Automation Test-1] ERROR com.ui.listeners.TestListener Capturing Screenshot for the failed tests 
+2025-11-00 23:44:23 [TestNG-test=UI Automation Test-1] ERROR com.ui.listeners.TestListener Attaching to the screenshot to html file 
+2025-11-11 23:44:23 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage Browser session quit successfully. 
+2025-11-13 23:44:23 [main] INFO com.ui.listeners.TestListener Test Suite Completed 

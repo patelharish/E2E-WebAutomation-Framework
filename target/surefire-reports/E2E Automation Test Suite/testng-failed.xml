@@ -6,13 +6,13 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="isLambdaTest" value="false"/>
     <classes>
-      <class name="com.ui.tests.LoginCSVTest">
+      <class name="com.ui.tests.LoginExcelTest">
         <methods>
           <include name="setUp"/>
-          <include name="loginTest" invocation-numbers="0"/>
           <include name="tearDown"/>
+          <include name="loginTest" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- com.ui.tests.LoginCSVTest -->
+      </class> <!-- com.ui.tests.LoginExcelTest -->
     </classes>
   </test> <!-- UI Automation Test(failed) -->
 </suite> <!-- Failed suite [E2E Automation Test Suite] -->
