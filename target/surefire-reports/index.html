@@ -147,7 +147,7 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;8&quot; parallel=&quot;methods&quot; name=&quot;E2E Automation Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;8&quot; parallel=&quot;methods&quot; name=&quot;UI Automation Test&quot; verbose=&quot;0&quot;&gt;
-    &lt;parameter name=&quot;isHeadless&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;isHeadless&quot; value=&quot;true&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;parameter name=&quot;isLambdaTest&quot; value=&quot;false&quot;/&gt;
     &lt;classes&gt;
@@ -211,12 +211,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginTest')
 data.setCell(0, 2, 'com.ui.tests.LoginCSVTest')
-data.setCell(0, 3, 6729);
+data.setCell(0, 3, 4442);
 window.suiteTableData['E2E_Automation_Test_Suite']= { tableData: data, tableDiv: 'times-div-E2E_Automation_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-E2E_Automation_Test_Suite">
               </div> <!-- times-div-E2E_Automation_Test_Suite -->
             </div> <!-- times-div -->
@@ -244,16 +244,16 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.ui.tests.LoginCSVTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(chrome, false, false, [TestResult name={null} status=CREATED method=LoginCSVTest.loginTest(com.ui.po...)</span>
+                <span class="method-name">setUp(chrome, false, true, [TestResult name={null} status=CREATED method=LoginCSVTest.loginTest(com.ui.poj...)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginTest(User [emailAddress=mukeshkumar01.gh@gmail.com, password=11111111])</span>
-                <span class="method-start">1605 ms</span>
+                <span class="method-start">4842 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">8342 ms</span>
+                <span class="method-start">9293 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
